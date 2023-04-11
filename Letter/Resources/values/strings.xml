@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Пэееэр</string>
+    <string name="text_setting">Сэттинг</string>
+    <string name="title_menu">Бот Пэееэр</string>
+    <string name="text_bot">Бот</string>
+    <string name="title_home">Пэееэр</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>
