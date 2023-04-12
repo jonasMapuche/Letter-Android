@@ -30,6 +30,42 @@
         layout="@layout/layout_navigation" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="40dp"
+        app:srcCompat="@drawable/ic_left" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/ic_down" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="88dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/ic_up" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_marginBottom="48dp"
+        android:layout_marginLeft="120dp"
+        app:srcCompat="@drawable/ic_right" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_plus"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
