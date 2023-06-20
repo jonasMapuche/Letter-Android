@@ -31,46 +31,56 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:clickable="true"
         android:layout_gravity="bottom|start"
         android:layout_marginBottom="48dp"
-        android:layout_marginLeft="40dp"
+        android:layout_marginLeft="28dp"
         app:srcCompat="@drawable/ic_left" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_down"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:clickable="true"
         android:layout_gravity="bottom|start"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="18dp"
         android:layout_marginLeft="80dp"
         app:srcCompat="@drawable/ic_down" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_up"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:clickable="true"
         android:layout_gravity="bottom|start"
-        android:layout_marginBottom="88dp"
+        android:layout_marginBottom="78dp"
         android:layout_marginLeft="80dp"
         app:srcCompat="@drawable/ic_up" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_right"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:clickable="true"
         android:layout_gravity="bottom|start"
         android:layout_marginBottom="48dp"
-        android:layout_marginLeft="120dp"
+        android:layout_marginLeft="132dp"
         app:srcCompat="@drawable/ic_right" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floating_plus"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_weight="1"
+        android:clickable="true"
         android:layout_gravity="bottom|end"
-        android:layout_margin="@dimen/fab_margin"
-        app:srcCompat="@android:drawable/ic_input_add" />
+        android:layout_margin="@dimen/floating_plus"
+        app:srcCompat="@drawable/ic_add" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -4,7 +4,7 @@
     android:id="@+id/layout_menu"
     android:layout_width="match_parent"
     android:layout_height="176dp"
-    android:background="@color/menu"
+    android:background="@color/fab"
     android:gravity="bottom"
     android:orientation="vertical"
     android:paddingLeft="16dp"
@@ -29,6 +29,6 @@
         android:paddingStart="30dp"
         android:paddingEnd="100dp"
         android:text="@string/title_menu"
-        android:textColor="@color/fab"
+        android:textColor="@color/background"
         android:textSize="18sp" />
 </LinearLayout>

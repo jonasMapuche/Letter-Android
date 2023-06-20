@@ -16,14 +16,30 @@ namespace Letter.Views
     [Obsolete]
     public class HomeFragment : Fragment
     {
-        public int PlayId => Arguments.GetInt("current_play_id", 0);
+        int selectedPlayId;
 
-        public static HomeFragment NewInstance(int playId)
+        public HomeFragment()
         {
-            var bundle = new Bundle();
-            bundle.PutInt("current_play_id", playId);
-            return new HomeFragment { Arguments = bundle };
+            // Being explicit about the requirement for a default constructor.
         }
+
+        public override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            if (savedInstanceState != null)
+            {
+                selectedPlayId = savedInstanceState.GetInt("current_play_id", 0);
+            }
+        }
+
+        [Obsolete]
+        public override void OnSaveInstanceState(Bundle outState)
+        {
+            base.OnSaveInstanceState(outState);
+            outState.PutInt("current_play_id", selectedPlayId);
+        }
+
 
         [Obsolete]
         public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
